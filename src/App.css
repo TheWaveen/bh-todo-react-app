@@ -1,0 +1,62 @@
+.container {
+  padding: 1rem;
+}
+
+.task-list {
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.task-list ul {
+  padding-left: 0;
+}
+
+.task-item {
+  font-size: 21px;
+  list-style-type: none;
+}
+
+.task-item label {
+  margin-left: .5rem;
+}
+
+.task-item input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+.task-item .delete-button {
+  color: red;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.task-list .new-task {
+  margin-top: 1rem;
+  padding: .5rem;
+  font-size: 18px;
+  border: 1px solid royalblue;
+  border-radius: .2rem;
+}
+
+input[type=text] {
+  font-size: 21px;
+  padding: 7px 15px;
+  border: 1px solid #ccc;
+}
+input:active, input:focus {
+  outline: none;
+  border: 1px solid cornflowerblue;
+}
+
+button {
+  font-size: 21px;
+  background-color: transparent;
+  border: 1px solid cornflowerblue;
+  padding: 7px 15px;
+  transition-duration: .2s;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
